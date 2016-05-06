@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Mark's All-time Greats</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/layout.css">
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <!-- Top Bar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <!--Creates the nav class along with importing stylesheet information -->
+        <div class="brand NavText"> <!--Creates the logo text at the center of the bar and displays it using the style sheet information -->
+          <a href="home.html" style="color:white">Video Games!</a> <!--Makes the bootstrap branding a hyperlink to the homepage -->
+        </div>
+        <div class="dropdown dropdownicon navbar-left"> <!--This element creates an icon button alligned to the left side of the navigation bar The class define the position style and type of button that is being created-->
+          <a class="dropdown-toggle" data-toggle="dropdown" style="color:white"> <!--This means that when the button is clicked it will toggle the dropdown menu to appear -->
+            <span class="glyphicon glyphicon-align-justify"> </span> <!--Makes the button text appear as an icon -->
+            <ul class="dropdown-menu dropdown dropdown-menu-left">  <!--Makes the dropdown menu appear on the left side of the screen -->
+          </a>
+          <li><a href="home.html" style="color:white">Home</a></li> <!--Hyperlinks in the dropdown menu to different pages within the site -->
+          <li><a href="music.html" style="color:white">Music Artists</a></li>
+          <li><a href="movies.html" style="color:white">Movies</a></li>
+          <li><a href="contact.html" style="color:white">Contact Me</a></li>		  
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <!--All the content is contained with in the boundries of the container-->
+        <!--Main Page -->
+        <div class="row">
+          <!--Imports class row-->
+          <div class ="col-md-4 mediabox">
+            <!--imports bootstrap column settings along with adjust ments from layout.css-->
+            <a target="_blank" href ="http://store.steampowered.com/app/2600/" title="vtmb">
+              <!--Opens a link in a new tab (target="_blank". The title is what shows up when hovering and must be present for the image to function as a hyperlink-->
+              <img class="img-responsive" src= "images/vtmb.jpg"> <!--The image that becomes the hyper link the class makes the image resize on different screen sizes and src is where the img file is located-->
+            </a>
+            <h3>
+              <a target="_blank" href="http://store.steampowered.com/app/2600/" style="color:white">Vampire The Masquerade:Bloodlines</a> <!-- Href defines a hyperlink and where it links to & Style sets the look of an element without needing to be in the css file-->
+            </h3>
+            <p style="color:#cccccc">Vampire®: The Masquerade-Bloodlines™ delivers a new type of RPG experience-one that blends all the core elements of a traditional RPG with the graphical richness, immediacy and brutal combat of a first-person action game. The game plunges players into the dark and gritty vampire underworld of modern-day. </p>
+            <!--the <p> tag defines a paragraph-->
+          </div>
+          <!--Closes the element so it doesn't interfere with those below it-->
+          <div class ="col-md-4 mediabox ">
+            <a target="_blank" href ="http://store.steampowered.com/app/32370/"title="kotor">
+            <img class="img-responsive" src= "images/kotor.jpg">
+            </a>
+            <h3>
+              <a target="_blank" href="http://store.steampowered.com/app/32370/" style="color:white">STAR WARS™ - Knights of the Old Republic™</a>
+            </h3>
+            <p style="color:#cccccc">Choose Your Path. It is four thousand years before the Galactic Empire and hundreds of Jedi Knights have fallen in battle against the ruthless Sith. You are the last hope of the Jedi Order. Can you master the awesome power of the Force on your quest to save the Republic? Or will you fall to the lure of the darkside.</p>
+          </div>
+          <div class ="col-md-4 mediabox">
+            <a target="_blank" href ="http://store.steampowered.com/app/292030/"title="witcher" >
+            <img class="img-responsive" src= "images/witcher3.jpg">
+            </a>
+            <h3>
+              <a target="_blank" href="http://store.steampowered.com/app/292030/" style="color:white">The Witcher® 3: Wild Hunt</a>
+            </h3>
+            <p style="color:#cccccc">The Witcher is a story-driven, next-generation open world role-playing game, set in a visually stunning fantasy universe, full of meaningful choices and impactful consequences. In The Witcher, you play as Geralt of Rivia, a monster hunter tasked with finding a child from an ancient prophecy.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class ="col-md-4 mediabox">
+            <a target="_blank" href ="http://store.steampowered.com/app/200510/" title="XCOM">
+            <img class="img-responsive" src= "images/xcom.jpg">
+            </a>
+            <h3>
+              <a target="_blank" href="http://store.steampowered.com/app/200510/" style="color:white">XCOM:Enemy Unknown</a>
+            </h3>
+            <p style="color:#cccccc">XCOM: Enemy Unknown will place you in control of a secret paramilitary organization called XCOM. As the XCOM commander, you will defend against a terrifying global alien invasion by managing resources, advancing technologies, and overseeing combat strategies and individual unit tactics.</p>
+          </div>
+          <div class ="col-md-4 mediabox">
+            <a target="_blank" href ="http://store.steampowered.com/app/730/" title="CSGO"</a>
+            <img class="img-responsive" src= "images/csgo.jpg">
+            </a>
+            <h3>
+              <a target="_blank" href="http://store.steampowered.com/app/730/" style="color:white">Counter-Strike: Global Offensive</a>
+            </h3>
+            <p style="color:#cccccc">Counter-Strike: Global Offensive (CS:GO) expands upon the team-based action gameplay that it pioneered when it was launched 14 years ago. CS:GO features new maps, characters, and weapons and delivers updated versions of the classic CS content (de_dust, etc.) </p>
+          </div>
+          <div class ="col-md-4 mediabox">
+            <a target="_blank" href ="http://store.steampowered.com/app/22380/" title="FNV"</a>
+            <img class="img-responsive" src= "images/fnv.jpg">
+            </a>
+            <h3>
+              <a target="_blank" href="http://store.steampowered.com/app/22380/" style="color:white">Fallout: New Vegas</a>
+            </h3>
+            <p style="color:#cccccc">Welcome to Vegas. As you battle your way across the heat-blasted Mojave Wasteland, the colossal Hoover Dam, and the neon drenched Vegas Strip, you’ll be introduced to a colorful cast of characters, power-hungry factions, special weapons, mutated creatures and much more.</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <!--Creates and defines how the footer will behave-->
+        <p class="footermain footerlinks">
+          <!--Imports settings from the styple sheet-->
+          <a target="_blank" href="http://steamcommunity.com/id/AmbientFreak/" style="color:white">Steam</a><!--Links to my steam profile-->
+          -
+          <a target="_blank" href="contact.html" style="color:white">Contact</a> <!--Links to the contact me page-->				
+        </p>
+        <p class="footermain">Mark Leaman &copy; 2016</p>
+        <!--A simple line of text-->
+      </footer>
+      <!--closes the footer-->
+    </body>
+  </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Mark's All-time Greats</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/layout.css">
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="form middlesettings">
+          <h1>Contact Me!</h1>
+          <div class="row">
+            <br>
+            <form Action="mailto:markleaman96@gmail.com" Method="POST" Enctype="text/plain">
+              <!--Opens the users email program to send the info and sends it to my email-->
+              <div class="col-md-6">
+                <!--Setting up bootstrap columns-->
+                <label for="form_name">Firstname *</label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *">  <!--The follwing elements below create the text boxes that the user can fill into to start an email-->
+              </div>
+              <div class="col-md-6">
+                <label for="form_lastname">Lastname *</label>  <!--The title for the text area-->
+                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *">  <!--The id for the text area, the type of data inputed, name of text area, importing form class, the text the fills the area before any user interaction-->
+                  </div>
+                  <div class="col-md-6">
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *">
+                  </div>
+                  <div class="col-md-6">
+                      <label for="form_phone">Phone</label>
+                      <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                  </div>
+                  <div class="col-md-12">  <!--More column config -->
+                <label for="form_message">Message *</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4"></textarea>
+              </div>
+              <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                <!--Simple text telling the user which boxes they must complete-->
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="btn" value="Send message" style="color:black">  <!--creates the submit button which triggers the form action-->
+              </div>
+              <div class= "middletext middlesettings">
+                <!--An element that leaves blank space and then creates hyperlink buttons to each page-->
+                <br>
+                <br>
+                <br>
+                <a style="color:white" href="home.html" class="btn-xl">Home</a>
+                <a style="color:white" href="videogames.html" class="btn-xl">Video Games</a>
+                <a style="color:white" href="music.html" class="btn-xl">Music Artists</a>
+                <a style="color:white" href="movies.html" class="btn-xl">Movies</a>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      </form>
+      </form>
+    </body>
